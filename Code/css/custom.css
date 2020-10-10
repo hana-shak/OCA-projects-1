@@ -1,0 +1,155 @@
+
+/*From Heeeeeeeere */
+body {
+	width: 100%;
+}
+ul {
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #58A0A8;
+  list-style-type: none;
+}
+
+li {
+  float:right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  margin-right: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+img {
+ display: block;
+  width: 15%;
+  height: 15%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+
+
+h2 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.contact {
+	margin-top: 20px;
+}
+
+
+.photos-1 {
+
+	display: block;
+	width:80%;
+height:80%;
+ border-radius: 10px;
+ box-shadow: 0px 0px 10px 10px #fbf9e8;
+ 
+}
+.photos-2 {
+	display: block;
+	width:80%;
+height:80%;
+ border-radius: 10px;
+ box-shadow: 0px 0px 10px 10px #fbf9e8;
+
+}
+.photos-3 {
+	width:80%;
+height:80%;
+ border-radius: 10px;
+ box-shadow: 0px 0px 10px 10px #fbf9e8;
+
+}
+.photos-4 {
+	width:80%;
+height:80%;
+ border-radius: 10px;
+ box-shadow: 0px 0px 10px 10px #fbf9e8;
+ 
+}
+.photos-5 {
+	width:40%;
+height:40%;
+ border-radius: 10px;
+ box-shadow: 0px 0px 10px 10px #fbf9e8;
+ 
+}
+.photos-6 {
+	width:40%;
+height:40%;
+ border-radius: 10px;
+ box-shadow: 0px 0px 10px 10px #fbf9e8;
+ margin-bottom: 10px;
+}
+
+.container {
+	width: 100%;
+	margin-top: 20px;
+	border: 1px dashed black;
+	border-radius: 30px;
+	background-color: #FAFAED;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#text {
+	width: 40%;
+	height: 5%;
+}
+#text2 {
+	width: 90%;
+	height: 5%;
+}
+#text3 {
+	width: 90%;
+	 
+}
+#email {
+	width: 40%;
+	height: 5%;
+}
+.form-group {
+	display: block;
+	align-items: center;
+	margin: 20px;
+}
+
+#text-align {
+	text-align: left;
+}
+
+h4 {
+	text-decoration: underline;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+footer {
+	background-color: #58A0A8;
+	color: #fff;
+	padding-bottom: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#submit {
+	margin: 20px;
+}
