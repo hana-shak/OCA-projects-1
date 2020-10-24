@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/calculate.js"></script>
+    <meta name="description" content="personal assisstant..">
+    <meta http-equiv="refresh" content="30">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Ubuntu, linux, Web Developer">
+    <meta property="og:description" content="personal,assisstant">
+    <meta name=”robots” content=”index, follow”>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+   </style>
+   </head>
+
+
+   <body id="change-color-body">
+    <!--Start of Header-->
+    
+      
+        <div class="header">
+            <img src="images/LogoMakr2.png" alt="Logo"  id="ilogo">
+            <a href="home.html"> <i class="fa fa-home fa-1x" aria-hidden="true" id="spacers"></i>Home</a>
+            <a href="Registration.html"> <i class="fa fa-address-card-o" aria-hidden="true" id="spacers"></i>Form</a>
+            <a href="todo.html"><i class="fa fa-list-ul" aria-hidden="true" id="spacers"></i>To Do List</a>
+            <a href="calculater.html"><i class="fa fa-calculator" aria-hidden="true" id="spacers"></i>Calculater</a>
+        </div>
+      </div>
+    <!--End of Header-->
+
+      <!--Start Color Picker-->
+<div id="color-box">
+    <div id="change-color-div" onclick="click1();" style="background-color: red;"></div>
+    <div id="change-color-div" onclick=" click2();" style="background-color: green;"></div>
+    <div id="change-color-div" onclick=" click3();" style="background-color: yellow;"></div>
+    <div id="change-color-div" onclick=" click4();" style="background-color: blue;"></div>
+    <div id="change-color-div" onclick=" click5();" style="background-color: orange"></div>
+    <div id="change-color-div" onclick=" click6();" style="background-color: grey"></div>
+    <div id="change-color-div" onclick=" click7();" style="background-color: purple"></div>
+    <div id="change-color-div" onclick=" click8();" style="background-color: white;"></div>
+    </div>
+    <!--End Color Picker-->
+
+    <div id="divimg">
+        <img id="myimage" class="col-12" style="height: 500px;" src= "images/nn.jpg">  
+    </div>
+    
+    <div class="d-flex flex-md-row flex-column align-items-md-center">
+
+        <div class="col-12 col-md-6 p-4 p-md-5" id="main1">
+          <img class="col-9" src="images/cover.png">
+          <h1 id="h1" style ="font-size: 32px" class="ml-0 ml-md-5 col-12 col-md-8 mt-5"> HOW TO ORGANIZE</h1>
+          <button class="ml-1 ml-md-4 mb-2 mb-md-0 col-10 col-md-3 btn btn-primary" id="bt1"type="button" onclick="myFunction()">TO Do List</button>
+          <button class="ml-1 ml-md-4 mb-2 mb-md-0 col-10 col-md-3 btn btn-primary" id="bt2" type="button" onclick="myFunction()">Calculater</button> 
+        </div>
+        
+        <div class="col-12 col-md-5" id="main2">
+        
+            <div class="screen">
+                <i class="fa fa-circle" aria-hidden="true"></i> 
+                <div id="lapscreen" class="col-12">
+                    <img class="col-12" src="images/todo33.jpg" alt="image ">
+                </div>
+            </div>
+        
+            <div class="base col-12">
+
+                <div id="base1"> 
+                    <i class="fa fa-apple fa-4x" aria-hidden="true"></i></div> 
+            </div><!--end base-->
+        
+        </div>  <!--end main2-->
+        
+    </div>  <!--end main-->
+
+    <footer>
+        <div id="final">
+            <img src="images/o.jpg" style="height: 20em; width: 100%;">
+          </div>
+    </footer>
+    <div id="fot1">
+        <a class="active" style="margin-right:5%;" >
+        <i class="fa fa-copyright fa-2x" aria-hidden="true">Copy right 2020</i></a>
+        <a class="active"><i class="fa fa-camera-retro fa-2x"></i></a>
+        <a class="active"> <i class="fa fa-facebook-official fa-2x"></i></a>
+        <a class="active"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+   </div> 
+
+<script src="js/picker.js"></script>   
+</body>
+ <script>
+var x= document.getElementById("myimage"),
+    
+     images = [
+     'images/todo-bella.jpg',
+     'images/nn.jpg',
+     'images/11.jpg',
+    
+    ]
+ 
+     setInterval(function() {
+     var myRrandomNum = Math.floor(Math.random()*images.length);
+         console.log("interval")
+         x.src= images[myRrandomNum];
+         }, 1000); 
+         function myFunction() {
+            y=document.getElementById("show").href= "Form.html";
+        }
+        </script> 
+</html>
